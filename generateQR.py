@@ -16,7 +16,7 @@ def make_qrpng():
     )
 
     src = input("""\n[Encode or Paste (CTRL+V)]
-    Input text/source for QR: """) # http://rssocar.psa.gov.ph/benguet
+    Input text/source for QR: """)
 
     qr.add_data(src)
     qr.make(fit=True)
